@@ -1,4 +1,4 @@
-package com.track.employee;
+package com.demo.sample;
 
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
