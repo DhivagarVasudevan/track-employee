@@ -9,17 +9,18 @@
 </head>
 <h1>Add Employee Details</h1>
 <body>
-	<label id="idLabel">ID :</label>
-	<input id="id" type="number">
-	<label id="nameLabel">Name :</label>
-	<input id="name" type="text">
-	<label id="dojLabel">Date of Joining :</label>
-	<input id="doj" type="text">
-	<label id="noiLabel">Number of Interviews Scheduled :</label>
-	<input id="noi" type="number">
-	<label id="uiLabel">Upcoming Interviews scheduled :</label>
-	<input id="ui" type="text">
-	<label id="caLabel">Clients Attended :</label>
-	<input id="ca" type="text">
+	<form action="insertEmployee">
+		<label id="idLabel">ID :</label> <input id="id" type="number"
+			name="Id"> <label id="nameLabel">Name :</label> <input
+			id="name" type="text" name="name"> <label id="dojLabel">Date
+			of Joining :</label> <input id="doj" type="text" name="doj"> <label
+			id="noiLabel">Number of Interviews Scheduled :</label> <input
+			id="noi" type="number" name="numberOfInterviewsScheduled"> <label
+			id="uiLabel">Upcoming Interviews scheduled :</label> <input id="ui"
+			type="text" name="upcomingInterviews"> <label id="caLabel">Clients
+			Attended :</label> <input id="ca" type="text" name="clientsAttended">
+		<button id="insertEmpButton" value="Add Employee">Insert
+			Employee</button>
+	</form>
 </body>
 </html>
