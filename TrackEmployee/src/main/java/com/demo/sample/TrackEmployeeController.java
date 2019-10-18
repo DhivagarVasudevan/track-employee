@@ -35,9 +35,13 @@ public class TrackEmployeeController {
 	}
 
 	@RequestMapping("deleteEmployee")
-	public String deleteEmployee() {
+	public ModelAndView deleteEmployee(ModelAndView model) {
 		System.out.println("Insert Employee method called");
-		return "delete.jsp";
+		List<Employee> listEmp = sampleRepo.findAll();
+		System.out.println(listEmp);
+		model.addObject("listEmp", listEmp);
+		model.setViewName("delete.jsp");
+		return model;
 	}
 
 	@GetMapping("viewEmployeeDetails")

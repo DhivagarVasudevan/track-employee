@@ -6,18 +6,35 @@
 <meta charset="ISO-8859-1">
 <title>Track Employee</title>
 <link rel="stylesheet" type="text/css" href="home.css">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet"
+	href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+<script
+	src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script
+	src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+<script
+	src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 </head>
-<h1>Welcome Buddy!!</h1>
-<h2>Choose what you wanted to do from the below options</h2>
+<div class="centered">
+	<h1>Welcome Buddy!! Track your employees here!!</h1>
+</div>
+<!-- <h2>Choose what you wanted to do from the below options</h2> -->
 <body>
+	<img id="image" src="925611196s.jpg" class="rounded" alt="Cinque Terre"
+		width="304" height="236">
 	<form action="insertEmployee">
-		<button id="insertEmp" value="Add Employee">Add Employee</button>
+		<button id="insertEmp" value="Add Employee" class="btn btn-info">Add
+			Employee</button>
 	</form>
 	<form action="deleteEmployee">
-		<button id="deleteEmp" value="Delete Employee">Delete Employee</button>
+		<button id="deleteEmp" value="Delete Employee" class="btn btn-info">Delete
+			Employee</button>
 	</form>
 	<form action="viewEmployeeDetails">
-		<button id="viewEmp" value="View Employee Details">View Employee Details</button>
+		<button id="viewEmp" value="View Employee Details"
+			class="btn btn-info">View Employee Details</button>
 	</form>
 </body>
 </html>
