@@ -1,21 +1,42 @@
 @charset "ISO-8859-1";
 
 #image {
-	width: 1000px;
+	width: 900px;
 	height: 440px;
-	top: 60px;
+	top: -147px;
 	position: absolute;
-	left: 100px;
+	left: 244px;
 }
 
+/* h1 { */
+/* 	position:absolute; */
+/* 	overflow : visible; */
+/* 	text-align: center; */
+/* } */
+
+#welcomeId{
+	position: absolute;
+    font-size: 37px !important;
+    top: 208px;
+    left: 324px;
+}
 #insertEmp {
 	position: absolute;
-	top: 180px;
+	top: 400px;
 	right: 30px;
 	bottom: 50px;
 	left: 80px;
-	width: 180px;
-	height: 30px;
+	width: 226px;
+	height: 205px;
+	border: none;
+	color: white;
+	padding: 20px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	border-radius: 50%;
 }
 
 #employeeTable {
@@ -46,22 +67,41 @@
 
 #deleteEmp {
 	position: absolute;
-	top: 180px;
+	top: 400px;
 	right: 80px;
 	bottom: 50px;
-	left: 380px;
-	width: 180px;
-	height: 30px;
+	left: 600px;
+	width: 226px;
+	height: 205px;
+	border: none;
+	color: white;
+	padding: 20px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	border-radius: 50%;
+	
 }
 
 #viewEmp {
 	position: absolute;
-	top: 180px;
+	top: 400px;
 	right: 80px;
 	bottom: 50px;
-	left: 680px;
-	width: 180px;
-	height: 30px;
+	left: 1146px;
+	width: 226px;
+	height: 205px;
+	border: none;
+	color: white;
+	padding: 20px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	border-radius: 50%;
 }
 
 #id {

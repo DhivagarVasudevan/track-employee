@@ -22,8 +22,10 @@
 </div>
 <!-- <h2>Choose what you wanted to do from the below options</h2> -->
 <body>
-	<img id="image" src="925611196s.jpg" class="rounded" alt="Cinque Terre"
+	<img id="image" src="optimum.jpg" class="rounded" alt="Cinque Terre"
 		width="304" height="236">
+	<label id="welcomeId">Welcome Buddy!! Track your employees
+		here!!</label>
 	<form action="insertEmployee">
 		<button id="insertEmp" value="Add Employee" class="btn btn-info">Add
 			Employee</button>
