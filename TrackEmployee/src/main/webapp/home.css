@@ -83,23 +83,23 @@
 }
 
 #backHome {
-	position: absolute;
-	top: 500px;
-	right: 30px;
-	bottom: 50px;
-	left: 315px;
-	width: 180px;
-	height: 30px;
+    position: absolute;
+    top: 593px;
+    /* right: 30px; */
+    bottom: 50px;
+    left: 484px;
+    width: 180px;
+    height: 30px;
 }
 
 #insertEmpButton {
-	position: absolute;
-	top: 500px;
-	right: 30px;
-	bottom: 50px;
-	left: 80px;
-	width: 180px;
-	height: 30px;
+    position: absolute;
+    top: 519px;
+    right: 30px;
+    bottom: 50px;
+    left: 357px;
+    width: 180px;
+    height: 30px;
 }
 
 #search {
@@ -148,140 +148,148 @@
 
 #id {
 	position: absolute;
-	top: 180px;
+	top: 45px;
 	right: 30px;
 	bottom: 50px;
-	left: 220px;
+	left: 355px;
 	width: 180px;
 	height: 30px;
+	font-size: large;
 }
 
 #idLabel {
 	position: absolute;
-	top: 180px;
+	top: 45px;
 	right: 30px;
 	bottom: 50px;
 	left: 50px;
+	font-size: large;
 }
 
 #name {
 	position: absolute;
-	top: 220px;
+	top: 106px;
 	right: 30px;
 	bottom: 50px;
-	left: 220px;
+	left: 355px;
 	width: 180px;
 	height: 30px;
+	font-size: large;
 }
 
 #nameLabel {
 	position: absolute;
-	top: 220px;
+	top: 106px;
 	right: 30px;
 	bottom: 50px;
 	left: 50px;
-	width: 180px;
 	height: 30px;
+	font-size: large;
 }
 
 #doj {
 	position: absolute;
-	top: 260px;
+	top: 174px;
 	right: 30px;
 	bottom: 50px;
-	left: 220px;
+	left: 355px;
 	width: 180px;
 	height: 30px;
+	font-size: large;
 }
 
 #dojLabel {
 	position: absolute;
-	top: 260px;
+	top: 174px;
 	right: 30px;
 	bottom: 50px;
 	left: 50px;
-	width: 180px;
 	height: 30px;
+	font-size: large;
 }
 
 #noi {
 	position: absolute;
-	top: 300px;
+	top: 243px;
 	right: 30px;
 	bottom: 50px;
-	left: 220px;
+	left: 355px;
 	width: 180px;
 	height: 30px;
+	font-size: large;
 }
 
 #noiLabel {
 	position: absolute;
-	top: 300px;
+	top: 243px;
 	right: 30px;
 	bottom: 50px;
 	left: 50px;
-	width: 180px;
 	height: 30px;
+	font-size: large;
 }
 
 #ui {
 	position: absolute;
-	top: 340px;
+	top: 316px;
 	right: 30px;
 	bottom: 50px;
-	left: 220px;
+	left: 355px;
 	width: 180px;
 	height: 30px;
+	font-size: large;
 }
 
 #uiLabel {
 	position: absolute;
-	top: 340px;
+	top: 316px;
 	right: 30px;
 	bottom: 50px;
 	left: 50px;
-	width: 180px;
 	height: 30px;
+	font-size: large;
 }
 
 #ca {
 	position: absolute;
-	top: 380px;
+	top: 382px;
 	right: 30px;
 	bottom: 50px;
-	left: 220px;
+	left: 355px;
 	width: 180px;
 	height: 30px;
+	font-size: large;
 }
 
 #caLabel {
 	position: absolute;
-	top: 380px;
+	top: 382px;
 	right: 30px;
 	bottom: 50px;
 	left: 50px;
-	width: 180px;
 	height: 30px;
+	font-size: large;
 }
 
 #comments {
 	position: absolute;
-	top: 420px;
+	top: 442px;
 	right: 30px;
 	bottom: 50px;
-	left: 220px;
+	left: 355px;
 	width: 180px;
 	height: 60px;
+	font-size: large;
 }
 
 #commentsLabel {
 	position: absolute;
-	top: 420px;
+	top: 442px;
 	right: 30px;
 	bottom: 50px;
 	left: 50px;
-	width: 180px;
 	height: 30px;
+	font-size: large;
 }
 
 .grid-container {
@@ -320,6 +328,12 @@
     top: 115px;
 }
 
+#openEmployeeId{
+	position: absolute;
+    left: 90px;
+    top: 115px;
+}
+
 #searchUpdateButton {
     position: absolute;
     left: 1350px;
@@ -335,4 +349,14 @@
     position: absolute;
     left: 1350px;
     top: 68px;
+}
+#details {
+    position: absolute;
+    width: 41%;
+    height: 82%;
+    /* font-size: inherit; */
+    border: solid;
+    left: 430px;
+    box-sizing: border-box;
+    border: ridge;
 }

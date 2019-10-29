@@ -32,11 +32,13 @@
 <body>
 	<form action="updateEmployee">
 		<input id="search" name="searchTerm" type="number">
-		<button id="searchUpdateButton" class="btn btn-info">Search ID</button>
+		<button id="searchUpdateButton" class="btn btn-info">Search
+			ID</button>
 	</form>
-	<form action="deleteEmployee">
-		<table id="employeeTable" border="1"
-			class="table table-striped">
+	<form action="openEmployee">
+		<button id="openEmployeeId" class="btn btn-info">Open
+			Employee For Update</button>
+		<table id="employeeTable" border="1" class="table table-striped">
 			<th>Select record(s)</th>
 			<th>Id</th>
 			<th>Name</th>
@@ -48,8 +50,7 @@
 
 			<c:forEach var="emp" items="${listEmp}" varStatus="status">
 				<tr>
-					<td><input type="radio" name="checkboxGroup"
-						value="${emp.id}" /></td>
+					<td><input type="radio" name="radioGroup" value="${emp.id}" /></td>
 					<td>${emp.id}</td>
 					<td>${emp.name}</td>
 					<td>${emp.doj}</td>
@@ -63,9 +64,9 @@
 		</table>
 		${msg};
 	</form>
-<!-- 	<form action="deleteEmployee"> -->
-<!-- 		<button id="refreshButton">Refresh Employee</button> -->
-<!-- 	</form> -->
+	<!-- 	<form action="deleteEmployee"> -->
+	<!-- 		<button id="refreshButton">Refresh Employee</button> -->
+	<!-- 	</form> -->
 	<form action="/">
 		<button id="homeUpdateButton" class="btn btn-info">Home</button>
 	</form>

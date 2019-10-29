@@ -104,6 +104,7 @@ public class TrackEmployeeController {
 		model.setViewName("view.jsp");
 		return model;
 	}
+	
 	@GetMapping("updateEmployee")
 	public ModelAndView updateEmployee(@RequestParam(value="searchTerm",required=false) Integer searchTerm) throws IOException{
 		ModelAndView model=new ModelAndView();
@@ -126,6 +127,27 @@ public class TrackEmployeeController {
 			model.addObject("listEmp", listEmp);
 		}
 		model.setViewName("update.jsp");
+		return model;
+	}
+	
+	@RequestMapping("openEmployee")
+	public ModelAndView openEmployee(ModelAndView model,HttpServletRequest request, HttpServletResponse response) {
+		System.out.println("openEmployee method called");
+		Employee listEmp = new Employee();
+		System.out.println(listEmp);
+		String[] values = request.getParameterValues("radioGroup");
+		if(Objects.nonNull(values)) {
+			for(int i=0; i<values.length; i++) {
+				Employee tempEmp = sampleRepo.findById(Integer.parseInt(values[i])).orElse(new Employee());
+				model.addObject("listEmp", tempEmp);
+			}
+		}
+		
+		
+//		List<Employee> listEmp1 = sampleRepo.findAll();
+//		model.addObject("listEmp", listEmp1);
+//		model.addObject("deleteMessage",deleteMessage);
+		model.setViewName("open.jsp");
 		return model;
 	}
 }

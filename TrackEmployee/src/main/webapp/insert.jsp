@@ -22,7 +22,7 @@
 </div>
 <body>
 	<form action="insertEmployee">
-		<div id="details" class="form-group">
+		<div id="details">
 			<label id="idLabel">ID :</label> <input id="id" type="number"
 				name="id"> <label id="nameLabel">Name :</label> <input
 				id="name" type="text" name="name"> <label id="dojLabel">Date
