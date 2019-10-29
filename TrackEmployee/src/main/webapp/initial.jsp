@@ -30,6 +30,10 @@
 		<button id="insertEmp" value="Add Employee" class="btn btn-info">Add
 			Employee</button>
 	</form>
+	<form action="updateEmployee">
+		<button id="updateEmp" value="Update Employee" class="btn btn-info">Update
+			Employee</button>
+	</form>
 	<form action="deleteEmployee">
 		<button id="deleteEmp" value="Delete Employee" class="btn btn-info">Delete
 			Employee</button>

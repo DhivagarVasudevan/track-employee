@@ -5,7 +5,7 @@
 <html>
 <head>
 <meta charset="ISO-8859-1">
-<title>View Employee Details Here</title>
+<title>Delete Employee Details Here</title>
 <link rel="stylesheet" type="text/css" href="home.css">
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -25,16 +25,19 @@
 <script
 	src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 <div class="centered">
-	<h1>Employee Details</h1>
+	<h1>Update Employee Details</h1>
 </div>
+<h2>Give the ID and press search to find an employee</h2>
 </head>
 <body>
-<form action="viewEmployeeDetails">
-		<input id="viewSearch" name="searchTerm" type="number">
-		<button id="searchViewButton" class="btn btn-info">Search ID</button>
+	<form action="updateEmployee">
+		<input id="search" name="searchTerm" type="number">
+		<button id="searchUpdateButton" class="btn btn-info">Search ID</button>
 	</form>
-	<form action="viewEmployeeDetails">
-		<table id = "viewTable" border="1" class="table table-striped ">
+	<form action="deleteEmployee">
+		<table id="employeeTable" border="1"
+			class="table table-striped">
+			<th>Select record(s)</th>
 			<th>Id</th>
 			<th>Name</th>
 			<th>Date Of Joining</th>
@@ -45,6 +48,8 @@
 
 			<c:forEach var="emp" items="${listEmp}" varStatus="status">
 				<tr>
+					<td><input type="radio" name="checkboxGroup"
+						value="${emp.id}" /></td>
 					<td>${emp.id}</td>
 					<td>${emp.name}</td>
 					<td>${emp.doj}</td>
@@ -54,11 +59,15 @@
 					<td>${emp.comments}</td>
 				</tr>
 			</c:forEach>
-		</table>
 
+		</table>
+		${msg};
 	</form>
+<!-- 	<form action="deleteEmployee"> -->
+<!-- 		<button id="refreshButton">Refresh Employee</button> -->
+<!-- 	</form> -->
 	<form action="/">
-		<button id="homeViewButton" class="btn btn-info">Home</button>
+		<button id="homeUpdateButton" class="btn btn-info">Home</button>
 	</form>
 </body>
 </html>

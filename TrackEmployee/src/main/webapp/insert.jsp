@@ -34,12 +34,12 @@
 				Attended :</label> <input id="ca" type="text" name="clientsAttended">
 			<label id="commentsLabel">Comments:</label>
 			<textarea id="comments" rows="4" cols="50" name="comments"></textarea>
-			<button id="insertEmpButton" value="Add Employee">Insert
+			<button id="insertEmpButton" class="btn btn-info" value="Add Employee">Insert
 				Employee</button>
 		</div>
 	</form>
 	<form action="/">
-		<button id="backHome">Home</button>
+		<button id="backHome" class="btn btn-info">Home</button>
 	</form>
 </body>
 </html>

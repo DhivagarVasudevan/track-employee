@@ -13,13 +13,50 @@
 /* 	overflow : visible; */
 /* 	text-align: center; */
 /* } */
-
-#welcomeId{
+#refreshButton {
 	position: absolute;
-    font-size: 37px !important;
-    top: 208px;
-    left: 324px;
+	left: 84px;
+	top: 118px;
 }
+
+#homeButton {
+	position: absolute;
+	left: 1px;
+	top: 118px;
+}
+
+#deleteButton {
+	position: absolute;
+	left: 250px;
+	top: 118px;
+}
+
+#welcomeId {
+	position: absolute;
+	font-size: 37px !important;
+	top: 208px;
+	left: 324px;
+}
+
+#updateEmp {
+	position: absolute;
+	top: 400px;
+	right: 30px;
+	bottom: 50px;
+	left: 416px;
+	width: 226px;
+	height: 205px;
+	border: none;
+	color: white;
+	padding: 20px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	border-radius: 50%;
+}
+
 #insertEmp {
 	position: absolute;
 	top: 400px;
@@ -65,12 +102,18 @@
 	height: 30px;
 }
 
+#search {
+	position: absolute;
+	top: 118px;
+	left: 1230px;
+}
+
 #deleteEmp {
 	position: absolute;
 	top: 400px;
 	right: 80px;
 	bottom: 50px;
-	left: 600px;
+	left: 785px;
 	width: 226px;
 	height: 205px;
 	border: none;
@@ -82,7 +125,6 @@
 	font-size: 16px;
 	margin: 4px 2px;
 	border-radius: 50%;
-	
 }
 
 #viewEmp {
@@ -259,4 +301,38 @@
 
 .centered {
 	text-align: center;
+}
+
+#viewTable {
+    position: absolute;
+    top: 110px;
+}
+
+#homeViewButton {
+    position: absolute;
+    left: 1px;
+    top: 68px;
+}
+
+#homeUpdateButton {
+    position: absolute;
+    left: 1px;
+    top: 115px;
+}
+
+#searchUpdateButton {
+    position: absolute;
+    left: 1350px;
+    top: 114px;
+}
+
+#viewSearch {
+    position: absolute;
+    top: 73px;
+    left: 1230px;
+}
+#searchViewButton {
+    position: absolute;
+    left: 1350px;
+    top: 68px;
 }
