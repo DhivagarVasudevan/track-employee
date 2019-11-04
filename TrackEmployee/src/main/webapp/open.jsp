@@ -31,7 +31,7 @@
 	<h1>Employee Details</h1>
 </div>
 <body>
-	<form action="insertEmployee" >
+	<form action="openAndUpdateEmployee" >
 <%-- 		<c:forEach var="emp" items="${listEmp}" varStatus="status"> --%>
 			<div id="details">
 				<label id="idLabel">ID :</label> <input id="id" type="number"
@@ -45,7 +45,7 @@
 					name="upcomingInterviews" value=${listEmp.upcomingInterviews}> <label id="caLabel">Clients
 					Attended :</label> <input id="ca" type="text" name="clientsAttended" value=${listEmp.clientsAttended}>
 				<label id="commentsLabel">Comments:</label>
-				<textarea id="comments" rows="4" cols="50" name="comments" value=${listEmp.comments}></textarea>
+				<textarea id="comments" rows="4" cols="50" name="comments"><c:out value="${listEmp.comments}" /></textarea>
 				<button id="insertEmpButton" class="btn btn-info"
 					value="Add Employee">Update Employee</button>
 			</div>
@@ -54,5 +54,8 @@
 	<form action="/">
 		<button id="backHome" class="btn btn-info">Home</button>
 	</form>
+	<div id="footerInsertCard" class="card">
+		<div id="footerMessage" class="card-footer" style="font-size:15px"><b>${deleteMessage}</b></div>
+	</div>
 </body>
 </html>

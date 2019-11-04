@@ -40,7 +40,7 @@
 
 #updateEmp {
 	position: absolute;
-	top: 400px;
+	top: 335px;
 	right: 30px;
 	bottom: 50px;
 	left: 416px;
@@ -59,7 +59,7 @@
 
 #insertEmp {
 	position: absolute;
-	top: 400px;
+	top: 335px;
 	right: 30px;
 	bottom: 50px;
 	left: 80px;
@@ -83,23 +83,23 @@
 }
 
 #backHome {
-    position: absolute;
-    top: 593px;
-    /* right: 30px; */
-    bottom: 50px;
-    left: 484px;
-    width: 180px;
-    height: 30px;
+	position: absolute;
+	top: 593px;
+	/* right: 30px; */
+	bottom: 50px;
+	left: 484px;
+	width: 180px;
+	height: 30px;
 }
 
 #insertEmpButton {
-    position: absolute;
-    top: 519px;
-    right: 30px;
-    bottom: 50px;
-    left: 357px;
-    width: 180px;
-    height: 30px;
+	position: absolute;
+	top: 519px;
+	right: 30px;
+	bottom: 50px;
+	left: 357px;
+	width: 180px;
+	height: 30px;
 }
 
 #search {
@@ -110,7 +110,7 @@
 
 #deleteEmp {
 	position: absolute;
-	top: 400px;
+	top: 335px;
 	right: 80px;
 	bottom: 50px;
 	left: 785px;
@@ -129,7 +129,7 @@
 
 #viewEmp {
 	position: absolute;
-	top: 400px;
+	top: 335px;
 	right: 80px;
 	bottom: 50px;
 	left: 1146px;
@@ -312,51 +312,68 @@
 }
 
 #viewTable {
-    position: absolute;
-    top: 110px;
+	position: absolute;
+	top: 110px;
 }
 
 #homeViewButton {
-    position: absolute;
-    left: 1px;
-    top: 68px;
+	position: absolute;
+	left: 1px;
+	top: 68px;
 }
 
 #homeUpdateButton {
-    position: absolute;
-    left: 1px;
-    top: 115px;
+	position: absolute;
+	left: 1px;
+	top: 115px;
 }
 
-#openEmployeeId{
+#openEmployeeId {
 	position: absolute;
-    left: 90px;
-    top: 115px;
+	left: 90px;
+	top: 115px;
 }
 
 #searchUpdateButton {
-    position: absolute;
-    left: 1350px;
-    top: 114px;
+	position: absolute;
+	left: 1350px;
+	top: 114px;
 }
 
 #viewSearch {
-    position: absolute;
-    top: 73px;
-    left: 1230px;
+	position: absolute;
+	top: 73px;
+	left: 1230px;
 }
+
 #searchViewButton {
-    position: absolute;
-    left: 1350px;
-    top: 68px;
+	position: absolute;
+	left: 1350px;
+	top: 68px;
 }
+
 #details {
+	position: absolute;
+	width: 41%;
+	height: 82%;
+	/* font-size: inherit; */
+	border: solid;
+	left: 430px;
+	box-sizing: border-box;
+	border: ridge;
+}
+
+#footerCard {
+	position: absolute;
+	width: 100%;
+	bottom: 0px;
+	/* height: 18px; */
+	background-color: cadetblue;
+}
+#footerInsertCard {
     position: absolute;
-    width: 41%;
-    height: 82%;
-    /* font-size: inherit; */
-    border: solid;
-    left: 430px;
-    box-sizing: border-box;
-    border: ridge;
+    width: 100%;
+    bottom: 0px;
+    height: 20px;
+    background-color: cadetblue;
 }

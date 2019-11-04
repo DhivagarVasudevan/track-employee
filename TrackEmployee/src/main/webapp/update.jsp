@@ -70,5 +70,10 @@
 	<form action="/">
 		<button id="homeUpdateButton" class="btn btn-info">Home</button>
 	</form>
+	<div id="footerCard" class="card">
+		<div id="footerMessage" class="card-footer" style="font-size: 15px">
+			<b>${deleteMessage}</b>
+		</div>
+	</div>
 </body>
 </html>

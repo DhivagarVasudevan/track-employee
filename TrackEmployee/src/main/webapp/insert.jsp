@@ -41,5 +41,8 @@
 	<form action="/">
 		<button id="backHome" class="btn btn-info">Home</button>
 	</form>
+	<div id="footerInsertCard" class="card">
+		<div id="footerMessage" class="card-footer" style="font-size:15px"><b>${deleteMessage}</b></div>
+	</div>
 </body>
 </html>

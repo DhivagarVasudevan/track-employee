@@ -69,9 +69,12 @@
 				</tr>
 			</c:forEach>
 
+
+
 		</table>
+
 	</form>
-	<footer>${deleteMessage}</footer>
+
 	<form action="deleteEmployee">
 		<button id="refreshButton" class="btn btn-info">Refresh
 			Employee</button>
@@ -94,5 +97,8 @@
 	<!--       Some text inside the toast body -->
 	<!--     </div> -->
 	<!--   </div> -->
+	<div id="footerCard" class="card">
+		<div id="footerMessage" class="card-footer" style="font-size:15px"><b>${deleteMessage}</b></div>
+	</div>
 </body>
 </html>
